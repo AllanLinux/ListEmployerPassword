@@ -3,7 +3,8 @@
 # ListEmployerPassword
 
 ## Visão Geral
-Esta aplicação é construída utilizando Spring Boot e inclui recursos como operações CRUD com o banco de dados usando Spring Data JPA, hash de senha com jBCrypt e visualizações HTML usando Thymeleaf. A aplicação está rodando com o Java 17.
+Esta aplicação é construída utilizando Spring Boot e inclui recursos como operações CRUD com o banco de dados usando Spring Data JPA, hash de senha com jBCrypt e visualizações HTML usando Thymeleaf, rodando com o Java 17.
+
 Aplicação realiza o cadastro de um colaborador e lista os colaboradores cadastrados com seu respectivo gerente, retornando um score em forma de progressBar para o grau de complexidade informada na senha de cadastro.
 
 ## Tecnologias Usadas
