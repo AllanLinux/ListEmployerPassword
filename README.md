@@ -59,4 +59,4 @@ Esta aplicação suporta as seguintes operações:
 - **Visualizações HTML**: A aplicação usa Thymeleaf para criar visualizações HTML, fornecendo uma interface amigável ao usuário para interagir com a aplicação.
 
 ## Licença
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE.md](https://github.com/seu_usuario/seu_repo/LICENSE.md) para detalhes.
+Este projeto está licenciado sob a Licença MIT.
