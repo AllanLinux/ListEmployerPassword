@@ -3,7 +3,8 @@
 # ListEmployerPassword
 
 ## Visão Geral
-Esta aplicação é construída utilizando Spring Boot e inclui recursos como operações CRUD com o banco de dados usando Spring Data JPA, hash de senha com jBCrypt e visualizações HTML usando Thymeleaf. A aplicação está rodando com o Java 17.
+Esta aplicação é construída utilizando Spring Boot e inclui recursos como operações CRUD com o banco de dados usando Spring Data JPA, hash de senha com jBCrypt e visualizações HTML usando Thymeleaf, rodando com o Java 17.
+
 Aplicação realiza o cadastro de um colaborador e lista os colaboradores cadastrados com seu respectivo gerente, retornando um score em forma de progressBar para o grau de complexidade informada na senha de cadastro.
 
 ## Tecnologias Usadas
@@ -24,7 +25,7 @@ Aplicação realiza o cadastro de um colaborador e lista os colaboradores cadast
 1. **Clone o repositório**: Primeiro, você precisará clonar o repositório usando o Git.
 
    ```
-   git clone https://github.com/seu_usuario/seu_repo.git
+   git clone https://github.com/AllanLinux/ListEmployerPassword.git
    ```
 
 2. **Abra o projeto na sua IDE**: Abra o projeto na sua IDE preferida que suporte Spring Boot e Java 17.
@@ -58,4 +59,4 @@ Esta aplicação suporta as seguintes operações:
 - **Visualizações HTML**: A aplicação usa Thymeleaf para criar visualizações HTML, fornecendo uma interface amigável ao usuário para interagir com a aplicação.
 
 ## Licença
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE.md](https://github.com/seu_usuario/seu_repo/LICENSE.md) para detalhes.
+Este projeto está licenciado sob a Licença MIT.
