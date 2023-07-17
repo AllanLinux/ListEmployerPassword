@@ -39,10 +39,13 @@ public class ColaboradorController {
 
 	
 	@GetMapping("/{id}")
-    public ResponseEntity<Colaborador> findById(@PathVariable Long id) {
+    public ResponseEntity<ColaboradorDto> findById(@PathVariable Long id) {
         Optional<Colaborador> colaborador = service.findById(id);
         if (colaborador.isPresent()) {
-            return new ResponseEntity<>(colaborador.get(), HttpStatus.OK);
+			ColaboradorDto colaboradorDto = colaborador
+					.map(service::toDto)
+					.orElseThrow();
+            return new ResponseEntity<>(colaboradorDto, HttpStatus.OK);
         } else {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
